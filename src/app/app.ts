@@ -1,9 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { SegundoProjeto } from './segundo-projeto/segundo-projeto';
+import { TerceiroProjeto } from "./terceiro-projeto/terceiro-projeto";
+import { QuartoProjeto } from "./quarto-projeto/quarto-projeto";
+import { QuintoProjeto } from "./quinto-projeto/quinto-projeto";
+import { SextoProjeto } from "./sexto-projeto/sexto-projeto";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, SegundoProjeto, TerceiroProjeto, QuartoProjeto, QuintoProjeto, SextoProjeto],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
