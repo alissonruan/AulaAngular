@@ -5,10 +5,17 @@ import { TerceiroProjeto } from "./terceiro-projeto/terceiro-projeto";
 import { QuartoProjeto } from "./quarto-projeto/quarto-projeto";
 import { QuintoProjeto } from "./quinto-projeto/quinto-projeto";
 import { SextoProjeto } from "./sexto-projeto/sexto-projeto";
+import { SetimoProjeto } from './setimo-projeto/setimo-projeto';
+import { OitavoProjeto } from "./oitavo-projeto/oitavo-projeto";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SegundoProjeto, TerceiroProjeto, QuartoProjeto, QuintoProjeto, SextoProjeto],
+  
+  imports:
+  [RouterOutlet, SegundoProjeto, TerceiroProjeto, 
+  QuartoProjeto, QuintoProjeto, SextoProjeto,
+  SetimoProjeto, OitavoProjeto],
+
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
